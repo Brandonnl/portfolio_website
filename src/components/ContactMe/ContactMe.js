@@ -57,7 +57,7 @@ const ContactMe = () => {
   };
 
   return (
-    <Section>
+    <Section nopadding id="contactme">
       <div style={{ display: 'flex', alignItems: 'center', flexDirection: isMobile ? 'column' : 'row' }}>
         <div style={{ marginRight: isMobile ? '0' : '40px', marginBottom: isMobile ? '40px' : '0' }}>
           <img src="/images/me.png" alt="Your Image" style={{ width: '200px', borderRadius: '50%', objectFit: 'cover' }} />
