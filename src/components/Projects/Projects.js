@@ -15,11 +15,11 @@ const Projects = () => (
         const displayText = hasVisitAndSource ? 'Code & Source' : 'Contact to view';
         const displayLink = hasVisitAndSource ? (
           <>
-            <ExternalLinks href={p.visit}>Code</ExternalLinks>
-            <ExternalLinks href={p.source}>Source</ExternalLinks>
+            <ExternalLinks href={p.visit}>Source</ExternalLinks>
+            <ExternalLinks href={p.source}>Code</ExternalLinks>
           </>
         ) : (
-          <ExternalLinks href="mailto: bl533@cornell.edu">
+          <ExternalLinks href="mailto: brandonlu3556@gmail.com">
             Contact to view <AiFillMail size="1.5rem" />
           </ExternalLinks>
         );
@@ -46,7 +46,7 @@ const Projects = () => (
             <UtilityList>
               {displayText !== 'Contact to view' && displayLink}
               {displayText === 'Contact to view' && (
-                <ExternalLinks href="mailto:bl533@cornell.edu">
+                <ExternalLinks href="mailto:brandonlu3556@gmail.com">
                   {displayText} <AiFillMail size="1.5rem" />
                 </ExternalLinks>
               )}
