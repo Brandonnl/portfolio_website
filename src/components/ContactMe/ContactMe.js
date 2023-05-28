@@ -58,10 +58,12 @@ const ContactMe = () => {
 
   return (
     <Section nopadding id="contactme">
+      <br />
       <div style={{ display: 'flex', alignItems: 'center', flexDirection: isMobile ? 'column' : 'row' }}>
         <div style={{ marginRight: isMobile ? '0' : '40px', marginBottom: isMobile ? '40px' : '0' }}>
           <img src="/images/me.png" alt="Your Image" style={{ width: '200px', borderRadius: '50%', objectFit: 'cover' }} />
         </div>
+        <br />
         <div>
           <SectionTitle>Contact Me</SectionTitle>
           <p>
