@@ -42,5 +42,5 @@ export const projects = [
 export const TimeLineData = [
   { year: 2021, text: 'Attending Cornell University', },
   { year: 2022, text: 'Partipcated in the CSMore program', },
-  { year: 2023, text: 'Served as a CS3110 Tutor, AEW Facilitator, and CS Teaching Assistant ', },
+  { year: 2023, text: 'Served as a CS3110 Tutor, AEW Facilitator, CS Teaching Assistant, and Funcitional Programming Assistant', },
 ];
