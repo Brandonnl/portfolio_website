@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'Recipe Generator',
+    title: 'CulinaryCraft',
     description: "Developed a Recipe-Generator app with React and Firebase, enabling users to generate random recipes. The app utilizes OpenAI's API for real-time recipe suggestions and Firebase's Firestore for seamless recipe storage and management.",
     image: '/images/1.png',
     tags: ['React', 'TypeScript', 'Firebase', 'Node'],
@@ -9,7 +9,7 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Maze Algorithm Visualizer',
+    title: 'Labyrinth of Riches',
     description: "In a graphical user interface (GUI), I utilized the depth-first-search algorithm to navigate a randomly generated maze and find the exit. Additionally, I implemented Dijkstra's Shortest Path algorithm, employing various data structures to efficiently track nodes and perform necessary calculations",
     image: '/images/2.png',
     tags: ['Java'],
