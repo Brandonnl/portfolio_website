@@ -41,6 +41,6 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2021, text: 'Attending Cornell University', },
-  { year: 2022, text: 'Partipcated in the CSMore program', },
+  { year: 2022, text: 'Partipcated in the CSMore program, Accelerate Program Software Developer Participant, Above and Beyond Computer Science (ABCS) Fellow' },
   { year: 2023, text: 'Served as a CS3110 Tutor, AEW Facilitator, CS Teaching Assistant, and Funcitional Programming Assistant', },
 ];
