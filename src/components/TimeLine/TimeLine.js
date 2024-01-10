@@ -46,7 +46,7 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm from Brooklyn, NY, where I enjoy fitness, bouldering, and building legos! I hope to learn and build new things within the field of software engineering ☺
+        I'm from Brooklyn, NY, where I enjoy fitness, bouldering, and martial arts! I hope to learn and build new things within the field of software engineering 
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
