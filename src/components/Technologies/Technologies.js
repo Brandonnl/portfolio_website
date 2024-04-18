@@ -8,7 +8,7 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with a range a technologies, where I'm most confident with Python and OCaml. I've also picked up several skills and tools along the way.
+      I've worked with a range a technologies, where I'm most confident with Python and OCaml. I've also picked up several skills and tools along the way. I do not know a lot of things.
     </SectionText>
     <List>
       <ListItem>
@@ -48,7 +48,7 @@ const Technologies = () => (
         </ListContainer>
       </ListItem>
     </List>
-    <SectionDivider  />
+    <SectionDivider />
   </Section>
 );
 
